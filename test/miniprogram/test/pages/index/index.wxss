@@ -1,0 +1,22 @@
+/* miniprogram/test/pages/index/index.wxss */
+
+.indexMain{
+  display: flex;/* 布局方法*/
+  flex-direction: column;/* 垂直布局*/
+  align-items: center;/* 水平居中*/
+}
+.icon{
+  width: 70%;
+  height: 500rpx;
+  border-radius: 50%;
+}
+.botlis{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background-color: blue;
+  text-decoration-color: white;
+}

@@ -1,0 +1,10 @@
+<!--miniprogram/test/pages/index/index.wxml-->
+
+<view class="indexMain">
+  <image class="icon" src="/test/images/icon.jpg">
+  </image>
+  <view wx:for="{{sthList}}" wx:key="{{item.id}}" class="botlis">
+    <button bindtap='gotosth_nob' data-nob="{{item.id}}" data-len="{{item.lenth}}" data-title="{{item.title}}" plain="ture">{{item.title}}</button>
+  </view>
+
+</view>

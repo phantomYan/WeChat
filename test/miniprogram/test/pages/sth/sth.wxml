@@ -1,0 +1,11 @@
+<!--miniprogram/test/pages/sth/sth.wxml-->
+<text class="sthtitle">{{title}}</text>
+<view class="sthmain">
+  <!-- <image src="/test/pages/images/{{key}}(1).png" bindtap="pim" data-url="/test/pages/images/{{key}}(1).png"></image> -->
+  <!-- <image src="/test/pages/images/{{key}}(2).png" bindtap="pim" data-url="/test/pages/images/{{key}}(2).png"></image> -->
+  <!-- <image src="{{imageslist[0]}}"></image> -->
+  <image src="cloud://hycydyx.6879-hycydyx-1301055280/images/{{key}}-1.jpg" bindtap="pim" data-url="{{arr[0]}}"></image>
+  <image src="cloud://hycydyx.6879-hycydyx-1301055280/images/{{key}}-2.jpg" bindtap="pim" data-url="{{arr[1]}}"></image>
+  <image src="{{arr[2]}}" bindtap="pim" data-url="{{arr[2]}}"></image>
+  <!-- <image src="{{imagesurl}}" bindtap="pim" data-url="{{imagesurl}}"></image> -->
+</view>

@@ -1,0 +1,14 @@
+/* miniprogram/test/pages/sth/sth.wxss */
+.sthtitle{
+  display: flex;/* 布局方法*/
+  flex-direction: column;/* 垂直布局*/
+  align-items: center;
+  font-size: 50rpx;
+  color: red
+}
+.sthmain{
+  display: flex;/* 布局方法*/
+  flex-direction: column;/* 垂直布局*/
+  align-items: center;
+  
+}
